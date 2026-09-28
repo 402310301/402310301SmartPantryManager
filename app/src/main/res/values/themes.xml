@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SmartPantry" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/green_700</item>
+        <item name="colorPrimaryVariant">@color/green_900</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/orange_600</item>
+        <item name="colorSecondaryVariant">@color/orange_800</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+
+    <!-- Reusable style for section headings -->
+    <style name="SectionHeading">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/green_700</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+
+    <!-- Reusable style for form labels -->
+    <style name="FieldLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+</resources>

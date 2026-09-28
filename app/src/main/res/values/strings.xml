@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Pantry</string>
+
+    <!-- Screen titles -->
+    <string name="title_pantry">Siya Pantry</string>
+    <string name="title_add_ingredient">Adding Ingredient</string>
+    <string name="title_edit_ingredient">Edit Ingredient</string>
+    <string name="title_suggested">Suggested Recipes</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_pantry">Siya Pantry Items</string>
+    <string name="nav_recipes">Recipes</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Pantry list -->
+    <string name="add_ingredient">Add ingredient</string>
+    <string name="delete_item">Delete item</string>
+    <string name="empty_pantry">Your pantry is empty.\nTap + to add the ingredients you have at home.</string>
+    <string name="expiry_banner">⚠ %1$d item(s) have expired or expire within %2$d day(s). Cook with them first!</string>
+    <string name="delete_title">Delete ingredient?</string>
+    <string name="delete_message">Remove \"%1$s\" from your pantry?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="item_deleted">%1$s deleted</string>
+    <string name="item_added">%1$s added to pantry</string>
+    <string name="item_updated">%1$s updated</string>
+    <string name="save_failed">Could not save. Please try again.</string>
+    <string name="expiry_none">No expiry date</string>
+    <string name="expiry_expired">Expired on %1$s</string>
+    <string name="expiry_today">Expires today!</string>
+    <string name="expiry_soon">Expires in %1$d day(s)</string>
+    <string name="expiry_date">Expires: %1$s</string>
+
+    <!-- Add / Edit -->
+    <string name="label_name">Ingredient Name</string>
+    <string name="hint_name">example. Bread</string>
+    <string name="label_quantity">Quantity and Unit</string>
+    <string name="hint_quantity">example. 5.</string>
+    <string name="label_expiry">Expiring Date (optional)</string>
+    <string name="no_expiry">No date selected</string>
+    <string name="pick_date">Pick date</string>
+    <string name="clear">Clear</string>
+    <string name="save">Save</string>
+    <string name="error_name_required">Please enter an Ingredient Name</string>
+    <string name="error_name_too_long">Name must be 40 characters or less</string>
+    <string name="error_name_letters">Use letters only (e.g. Potatoes)</string>
+    <string name="error_quantity_required">Please enter a Quantity</string>
+    <string name="error_quantity_invalid">Please enter a Valid N/umber</string>
+    <string name="error_quantity_positive">Quantity must be more than 0</string>
+    <string name="error_quantity_too_big">Quantity is too large</string>
+
+    <!-- Suggested recipes -->
+    <string name="summary_text">You can use the %3$d item or items in your pantry to make %1$d of %2$d recipes.</string>
+    <string name="ready_to_cook">Ready to Cook (with everything you have)</string>
+    <string name="no_matches">No recipes match your pantry yet. Add more ingredients.</string>
+    <string name="almost_there_header">Almost There (missing 1 ingredient)</string>
+    <string name="almost_there_note">These are not recommendations. One additional ingredient is still required for each.</string>
+    <string name="no_almost_there">No recipes are one ingredient away right now.</string>
+    <string name="missing_text">Missing: %1$s %2$s %3$s</string>
+    <string name="uses_text">Uses: %1$s</string>
+
+    <!-- Recipe detail -->
+    <string name="ingredients">Ingredients</string>
+    <string name="method">Method</string>
+    <string name="status_ready">✔ For this recipe, you have everything you need!</string>
+    <string name="status_missing">✘ You are missing %1$d ingredient(s).</string>
+    <string name="cook_button">I cooked this - update my pantry</string>
+    <string name="cook_title">Cook this recipe?</string>
+    <string name="cook_message">The ingredients used will be subtracted from your pantry.</string>
+    <string name="cook_confirm">Cook</string>
+    <string name="cook_done">Enjoy your meal! Your pantry has been updated.</string>
+    <string name="recipe_not_found">Recipe not found</string>
+
+    <!-- Settings -->
+    <string name="setting_expiry_alerts">Expiring-Item alerts</string>
+    <string name="setting_expiry_alerts_desc">On the pantry screen, draw attention to items that are soon to expire.</string>
+    <string name="setting_expiry_days">Warn me this many days before expiry</string>
+    <string name="setting_almost_there">Show \"Almost There\" recipes</string>
+    <string name="setting_almost_there_desc">Displays recipes with just one item missing in a different list.</string>
+    <string name="setting_default_unit">Default unit for new ingredients</string>
+    <string name="about_title">About</string>
+    <string name="about_text">By only recommending dishes that you can prepare with the ingredients you already have, Smart Pantry Manager helps you cut down on food waste. This device uses SQLite to store all of its data.</string>
+</resources>
